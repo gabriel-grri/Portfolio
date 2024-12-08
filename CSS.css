@@ -1,0 +1,104 @@
+        button{
+          background: none;
+          border: none;
+        }
+        section{
+          height: 500px;
+          width: 100%;
+          font-family: "Montserrat";
+          font-size: 14px;
+        }
+        a{
+          text-decoration: none;
+         }
+        .sc{
+            padding-left: 20px;
+            height: 100%;
+            width: 35%; 
+            float: left;
+            color: #fffFFF
+        }
+
+        .menu{
+            height: 800px;
+            width: 89.509385474%;
+            border-radius: 35px;
+            background-color: #091017;
+            top: 765px;
+       }
+       .menu.fixed{
+            height: 100%;
+            width: 30%;
+            border-radius: 35px;
+            background-color: #091017;
+            position: fixed;
+            top: 25px;
+       }
+       .mp{
+            height: 145px;
+            width: 85%;
+            margin: auto;
+            align-content: end;
+            text-align: center;
+            margin-bottom: 25px;
+       }
+       .mt{
+            height: 45px;
+            width: 85%;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 25px;
+       }
+       .linkMenu{
+        color:#8E5B25; 
+        text-decoration: none;
+        font-size: 22px
+       }
+       .col-8{
+        width: 100%;
+       }
+       .cLeft{
+          width: 45%;
+          float: left;
+          color: #fffFFF
+        }
+        .cRight{
+          width: 45%;
+          float: Right;
+          color: #fffFFF
+        }
+        .hBox{
+          height: 100px;
+          background-color: #091017;
+          border-radius: 25px;
+          margin-bottom: 25px;
+        }
+        .hP{
+          width:20%;
+          height: 100px;
+          padding-left:20px;
+          margin-right:20px;
+          padding-top: 25px;
+          float: left;
+        }
+        .hName{
+          height: 50px;
+          width: 70%;
+          float: left;
+          align-content: end;
+        }
+        .hPerc{
+          height: 10px;
+          width: 70%;
+          float: left;
+          border-radius: 25px;
+          background-color: #4F3C28;
+        }
+        .hBar{
+          height: 10px;
+          width: 70%;
+          float: left;
+          border-radius: 25px;
+          color: #4F3C28;
+          background-color: #8E5B25;
+        }

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="icon" href="Imagens/Logotipo.png">
+    <title>Portfolio</title>
+</head>
+    <style>
+        body{
+            background-color: #fffFFF;
+        }
+        h4{
+          color:  #28383D;
+        }
+        hr{
+          border-color: #28383D;
+        }
+        .mc{
+            width: 65%;
+            padding: 55px;
+            float: right;
+            padding-left: 50px;
+            color: #091017
+        }
+    </style>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+    window.addEventListener('scroll', function() {
+      const item = document.querySelector('.menu');
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    
+      if (scrollPosition > 500) {
+        item.classList.add('fixed');
+      } else {
+        item.classList.remove('fixed');
+      }
+    });
+    </script>
+
+    <!--Imagem inicial/Carrossel-->
+    <section>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="Imagens/CarrosselL1.png" class="w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Imagens/CarrosselL2.png" class="w-100">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Imagens/CarrosselL3.png" class="w-100">
+          </div>
+        </div>
+    </section>
+
+<!--Menu Lateral-->
+    <section style="padding-top: 25px;">
+      <div class="page">
+        <div class="sc">
+            <div class="menu">
+                <div class="mp">
+                    <img src="Imagens/Ícone.png" height="50%">
+                  </div>
+                <div class="mt">
+                    <p style="margin: 0px; font-size: 15px;">Gabriel Grechi Ribeiro</p>
+                    <div class="mt" style="margin-top: 21px">
+                          <a href="https://github.com/gabriel-Grri"><img src="Imagens/github.png" height="100%"></a>
+                          <a href="https://wa.me/5513988685159"><img src="Imagens/telefone.png" height="100%"></a>
+                          <a href="https://www.instagram.com/gabriel_grri/"><img src="Imagens/Insta.png" height="80%"></a>                 
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 27%; margin-bottom: 7%">
+                    <div class="col-4" style="padding-top: 67px; width: 100%">
+                      <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy">
+                        <a class="p-1 rounded linkMenu" href="#simple-list-item-1">- Sobre mim</a>
+                        <a class="p-1 rounded linkMenu" href="#simple-list-item-2">- Habilidades</a>
+                        <a class="p-1 rounded linkMenu" href="#simple-list-item-3">- Portfolio</a>
+                        <a class="p-1 rounded linkMenu" href="#simple-list-item-4">- Contato</a>
+                        <a class="p-1 rounded linkMenu" href="#simple-list-item-5"></a>
+                      </div>                  
+                    </div>
+                  
+                </div>
+                <div style="padding-left: 15px">
+                  <a href="index.html"><button>
+                    <img src="Imagens/Escuro.png" height="45px" width="50px" style="align-content: end;">
+                    </button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!--Página Sobre Mim-->
+        <div class="mc">
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                  <div id="simple-list-item-1">
+                    <h4>Sobre mim</h4>
+                    <hr>
+
+                    <p>Sou Gabriel Grechi Ribeiro, tenho 15 anos e sou atualmente estudante de informática na Etec de Itanhaém. Sempre tive interesse pelas áreas de tecnologia, principlamente pelos tópicos de robótica, programação e criação de jogos pelo fato de poder trabalhar muito com minha criatividade.
+                    </p>
+                    <br>
+                    <p>Concluí o ensino fundamental no Centro Educacional Pirâmide e fiz cursos de programação e de inglês, respectivamente, na Alura, por dois anos, e na Wizard, por 6 anos.
+                    </p>
+                    <br>
+                    <p>Tenho aptidão para apresentar projetos e não tenho problema em me comunicar com o público
+                    </p>
+                
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Página de Habilidades-->
+    <section style="padding-top: 25px">
+        <div class="mc">
+            <div class="col-8">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                  <div id="simple-list-item-2">
+                    <h4>Habilidades</h4>
+                    <hr style="margin-bottom: 25px">
+
+                    <div class="cLeft">
+
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/hShield.png" height="50px" style="margin: auto">
+                        </div>
+                        <div class="hName">
+                          HTML - 94.3%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 94.3%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/jsShield.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Java Script - 72%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 72%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/cssShield.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          CSS - 83.1%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 83.1%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP" style="padding-left: 10px;">
+                          <img src="Imagens/Bstrp.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Bootstrap - 74.1%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 74.1%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/guitarras.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Violão - 62%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 62%"></div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="cRight">
+                     
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/figma.png" height="50px" style="padding-left:7px">
+                        </div>
+                        <div class="hName">
+                          Figma - 53.2%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 53.2%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/Ps.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Photoshop CS6 - 76.5%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 76.5%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/canva.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Canva - 82%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 82%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP" style="padding-left: 20px;">
+                          <img src="Imagens/lingua.png" height="40px">
+                        </div>
+                        <div class="hName">
+                          Inglês - 94.7%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 94.7%"></div>
+                        </div>
+                      </div>
+
+                      <div class="hBox">
+                        <div class="hP">
+                          <img src="Imagens/Camera.png" height="50px">
+                        </div>
+                        <div class="hName">
+                          Fotografia - 66.6%
+                        </div>
+                        <div class="hPerc">
+                          <div class="hBar" style="width: 66.6%"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Página de Portfolio -->
+  <section style="padding-top: 25px">
+    <div class="mc">
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+              <div id="simple-list-item-3">
+                <h4>Portfolio</h4>
+                <hr>
+                <p style="margin-bottom: 25px">Uma lista de meus principais projetos em algumas das áreas listadas acima, produzidos a partír do ano de 2022.</p>
+
+                <div style="padding-top: 40px;margin-bottom: 20px">
+                  <span style="font-weight: bolder;margin-bottom:20px"> - Java Script </span>
+
+                  <a href="https://github.com/gabriel-grri/Lanchonete/blob/main" ><p style="padding-top:15px">Página de Lanchonete</p></a>
+                  <a href="https://github.com/gabriel-grri/Tiro-ao-Alvo" ><p style="padding-top:10px">Jogo de Tiro ao Alvo</p></a>
+                  <a href="https://github.com/gabriel-grri/Jogo-da-Velha" ><p style="padding-top:10px">Jogo da Velha</p></a>
+                  <a href="https://github.com/gabriel-grri/Paint" ><p style="padding-top:10px">Recriação do Paint</p></a>
+                  </div>
+
+                </div>
+
+                <div style="padding-top: 40px;margin-bottom: 20px">
+                  <span style="font-weight: bolder"> - HTML </span>
+
+                  <div id="carouselExampleCaptions" class="carousel slide" style="padding-top: 25px">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://github.com/gabriel-grri/Site-Etec/tree/main" ><img src="Imagens/HTML etec.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p>Recriação do Site da Etec</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/gabriel-grri/Cadastro-e-Login" ><img src="Imagens/HTML login.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p>Página de Cadastro e Login</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/gabriel-grri/Compra-de-Produto" ><img src="Imagens/HTML Bootstrap.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p>Página de compra (Bootstrap)</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/gabriel-grri/Organiza-o-de-p-gina" ><img src="Imagens/HTML Organização.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p>Organização de página (HTML 5)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  </div>
+
+                </div>
+                
+
+                <div style="padding-top: 40px;margin-bottom: 20px">
+                  <span style="font-weight: bolder;"> - Figma </span>
+
+                  <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://www.figma.com/proto/7lQHiHJLNlO1uB35PEaBV2/Projeto-TalkTec-APW?node-id=11-6&node-type=canvas&t=HbKLDggXk3nppQfg-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=11%3A6" ><img src="Imagens/Figma TalkTec.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <p>Prototipagem do projeto TalkTec</p>
+                        </div>
+                      </div>
+                    </div>
+                  
+
+                </div>
+
+                <div style="padding-top: 40px;margin-bottom: 20px">
+                  <span style="font-weight: bolder;"> - Fotografias </span>
+
+                  <div id="carouselExampleIndicators" class="carousel slide" style="padding-top: 25px">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Imagens/Foto1.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagens/Foto2.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagens/Foto3.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagens/Foto4.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Imagens/Foto5.png" class="d-block w-100" alt="..." style="border-radius: 25px; background-color:#091017;">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
+                  </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Página de Contato -->
+      <section style="padding-top: 25px">
+          <div class="mc">
+              <div class="col-8">
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                    <div id="simple-list-item-4">
+                      <h4>Contato</h4>
+                      <hr style="margin-bottom: 25px">
+                      
+                      <div class="cLeft" style="color: #28383D">
+
+                        <div style="margin-bottom: 20px">
+                          <span style="font-weight: bolder;">Nome : </span> &nbsp;Gabriel Grechi Ribeiro  
+                        </div>
+  
+                        <div style="margin-bottom: 20px">
+                          <span style="font-weight: bolder;">Nascimento : </span> &nbsp;05/03/2009 
+                        </div>
+  
+                        <div style="margin-bottom: 20px">
+                          <span style="font-weight: bolder;">Endereço: </span> &nbsp;Av. José Batista Campos, 1431 - Cidade Anchieta, Itanhaém - SP, 11740-000
+                        </div>
+  
+                        <div style="margin-bottom: 20px">
+                          <span style="font-weight: bolder;">E-mail : </span> &nbsp;ggrechir@gmail.com 
+                        </div>
+  
+                      </div>
+  
+                      <div class="cRight" style="color: #28383D">
+  
+                        <div style="margin-bottom: 20px">
+                            <span style="font-weight: bolder;">GitHub : </span> &nbsp;gabriel-grri 
+                          </div>
+  
+                        <div style="margin-bottom: 20px">
+                            <span style="font-weight: bolder;">Instagram : </span> &nbsp;@gabriel_grri 
+                          </div>
+  
+                          <div style="margin-bottom: 20px">
+                            <span style="font-weight: bolder;">Número : </span> &nbsp;+55 13 98868-5159  
+                          </div>
+
+                    </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+        <div id="simple-list-item-5">
+        </div>
+      </div>
+</body>
+</html>
